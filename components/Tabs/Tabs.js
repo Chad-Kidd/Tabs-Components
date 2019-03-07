@@ -49,6 +49,7 @@ class TabItem {
     const items = document.querySelectorAll(".tabs-item");
 
     // Remove the class "tabs-item-selected" from each element
+    //keyword from each - use .forEach
     items.forEach(function(current) {
       current.classList.remove("tabs-item-selected");
     });
